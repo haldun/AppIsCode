@@ -1,0 +1,2 @@
+# AppIsCode
+This is a macOS app template written in AppKit, with no storyboards, XIBs or SwiftUI. The UI is built in code. It includes a `@main` entry point, an app delegate that builds the main menu, and a window controller with a toolbar. The window holds a split view with an outline sidebar and a detail pane. The main menu has App, Edit, View, Window and Help menus. The window frame, sidebar width and sidebar collapsed state are saved between launches. Clicking the Dock icon reopens the window if it was closed. User-visible strings are localized through a String Catalog.
